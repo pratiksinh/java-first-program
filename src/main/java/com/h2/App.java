@@ -12,6 +12,19 @@ public class App
     }
 
     public static int doubleTheNumber(int number) {
-        return -1;
+        return number*2;
     }
+
+    private static int add(int numbers) {
+        sum = 0;
+
+       while (numbers < sum){
+           sum = numbers;
+           sum++;
+           system.out.print("\n");
+       }
+        return sum;
+    }
+
+    public class
 }
