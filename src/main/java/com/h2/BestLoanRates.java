@@ -3,7 +3,13 @@ import java.util.Scanner;
 import java.util.Map;
 
 public class BestLoanRates {
+   public final static  Map <Integer, Float> = bestRates;
     public static float main (String[] args) {
+
+
+    {
+        bestRates()
+    }
 
 
         Scanner scanner = new Scanner(System.in);
@@ -15,7 +21,6 @@ public class BestLoanRates {
         Integer loanTermInYears = scanner.nextInt();
         float bestRates = getRates(loanTermInYears);
 
-        public static final bestRates = Map<Integer, Float> integerFloatMap;
 
 
         integerFloatMap = Map.of(1, 5.50f, 2, 3.45f, 3, 2.67f);
